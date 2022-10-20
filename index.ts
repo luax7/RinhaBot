@@ -10,7 +10,7 @@ const client = new discord.Client({
         discord.IntentsBitField.Flags.DirectMessages
     ]
 })
-////
+
 const ArkClient = new Ark(client,{
     Owner: "Luax7#42069",
     PREFIX: "rr",
